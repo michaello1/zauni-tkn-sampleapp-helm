@@ -1,0 +1,12 @@
+appbackendDb:
+  user: mongoroot
+  password: mongotest
+
+mongodb:
+  service:
+    type: ClusterIP
+  persistence:
+    enabled: false
+  auth:
+    rootUser: mongoroot
+    rootPassword: mongotest
